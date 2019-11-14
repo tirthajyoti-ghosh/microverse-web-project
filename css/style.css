@@ -1,0 +1,105 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 99%;
+    margin: 30px 0px;
+    border-radius: 5px;
+    background: #EEEEEE;
+    color:#333333;
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    font-weight: 100;
+    text-align: center;    
+    margin-top: 0;
+}
+
+#image-container{
+    margin: 0 auto;
+    background: white;
+    height:90%;
+    width:92%;
+    padding:30px 30px 1px 30px;
+}
+
+img{
+    height: 80%;
+    width: 78%;
+    margin: 0 11%;
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.list-container{
+    text-align: center;
+}
+.list-container h3{
+    margin: 3.5% 0;
+}
+.list-container ul{
+    margin: 0 auto;
+    width: 60%;
+}
+.list-container ul li{
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: left;
+    margin: 20px 20%;
+    font-size: 17px;
+    width: 60%;
+}
+.list-container ul li span{
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+}
+footer blockquote{
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;    
+    margin: 45px 32%;
+    width: 39%;
+}
+footer h3 a{
+    color: blue;
+}
+
+@media screen and (max-width: 990px){
+    .container{
+        overflow: hidden;
+    }
+    .list-container ul{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .list-container ul li {
+        margin: 20px 10%;
+        width: 80%;
+    }
+    footer blockquote {        
+        margin: 45px 14%;
+        width: 80%;
+    }
+    footer h3{
+        margin: 20px;
+    }
+}
