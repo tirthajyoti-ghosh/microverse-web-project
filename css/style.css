@@ -82,3 +82,24 @@ footer blockquote{
 footer h3 a{
     color: blue;
 }
+
+@media screen and (max-width: 990px){
+    .container{
+        overflow: hidden;
+    }
+    .list-container ul{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .list-container ul li {
+        margin: 20px 10%;
+        width: 80%;
+    }
+    footer blockquote {        
+        margin: 45px 14%;
+        width: 80%;
+    }
+    footer h3{
+        margin: 20px;
+    }
+}
